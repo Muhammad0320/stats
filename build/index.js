@@ -18,4 +18,5 @@ for (const match of reader.data) {
         manUnitedWins++;
     }
 }
+console.log(manUnitedWins);
 // muhammawwal@005

@@ -22,4 +22,6 @@ for (const match of reader.data) {
   }
 }
 
+console.log(manUnitedWins);
+
 // muhammawwal@005
