@@ -13,7 +13,7 @@ export interface OutputTarget {
 export class Summary {
   constructor(public analyser: Analyser, public outputTarget: OutputTarget) {}
 
-  static printAndBuild(team: string): Summary {
+  static printwithBuild(team: string): Summary {
     const analyser = new WinsAnalyses(team);
 
     const outputTarget = new HTMLReporter();

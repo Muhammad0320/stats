@@ -8,7 +8,7 @@ class Summary {
         this.analyser = analyser;
         this.outputTarget = outputTarget;
     }
-    static printAndBuild(team) {
+    static printwithBuild(team) {
         const analyser = new WinsAnalysis_1.WinsAnalyses(team);
         const outputTarget = new HTMLReport_1.HTMLReporter();
         return new Summary(analyser, outputTarget);
