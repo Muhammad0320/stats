@@ -8,7 +8,6 @@ const fs_1 = __importDefault(require("fs"));
 class HTMLReporter {
     print(report) {
         const html = `
-        
                     <div> 
                             <h1> Output Analysis </h1> 
                             
