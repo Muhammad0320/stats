@@ -1,3 +1,5 @@
+import { MatchResult } from "./MatchResults";
+
 export type MatchData = [
   Date,
   string,
