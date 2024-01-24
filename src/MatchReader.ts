@@ -16,7 +16,7 @@ export class MatchReader {
   static fromCsv(filename: string): MatchReader {
     return new MatchReader(new CsvFileReader(filename));
   }
-
+                                                                                                                            
   load(): void {
     this.reader.read();
 

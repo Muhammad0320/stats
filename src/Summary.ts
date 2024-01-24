@@ -15,7 +15,7 @@ export class Summary {
 
   static printwithBuild(team: string): Summary {
     const analyser = new WinsAnalyses(team);
-
+    
     const outputTarget = new HTMLReporter();
 
     return new Summary(analyser, outputTarget);
