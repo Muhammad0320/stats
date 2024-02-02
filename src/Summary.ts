@@ -20,7 +20,7 @@ export class Summary {
 
     return new Summary(analyser, outputTarget);
   }
-
+                    
   buildAndPrintReport(matches: MatchData[]): void {
     const output = this.analyser.run(matches);
 

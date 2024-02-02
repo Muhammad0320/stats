@@ -10,7 +10,7 @@ interface MatchType {
 
 export class MatchReader {
   matches: MatchData[] = [];
-
+   
   constructor(public reader: MatchType) {}
 
   static fromCsv(filename: string): MatchReader {
